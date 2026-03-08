@@ -1,0 +1,43 @@
+export const projects = [
+   {
+    Title: "Methane Detection from Indian Coal Mines", Date: "Dec 2025 – Mar 2026",
+    Image: "/assets/project-methane.webp",
+    Description: "Satellite-based methane monitoring for 8 mines. R²=0.977, 91.7% accuracy, 94.1% F1-score. Multi-satellite data (Sentinel-2 + TROPOMI) with literature-backed emission factors.",
+    Technologies: ["Python", "Scikit-learn", "Google Earth Engine", "Rasterio", "Streamlit"],
+    Source: "https://github.com/Yuvika2109/CoalMeth",
+    Demo: "",
+  },
+  {
+    Title: "OncoVision – Breast Cancer Prediction", Date: "Nov 2025",
+    Image: "/assets/project-oncovision.webp",
+    Description: "End-to-end ML pipeline: ensemble models + CNN achieving 97%+ accuracy. Implemented SHAP/LIME for interpretability. Real-time Streamlit web app.",
+    Technologies: ["Python", "XGBoost", "Random Forest", "CNN", "SHAP", "Streamlit"],
+    Source: "https://github.com/Yuvika2109/OncoVision",
+    Demo: "",
+  },
+  {
+    Title: "PerzonAI – AI Marketing Tool", Date: "Aug 2025",
+    Image: "/assets/project-perzonai.webp",
+    Description: "Full-stack app (FastAPI + Next.js) with Google Gemini API for AI persona generation. PostgreSQL schema + automated pipelines. 60% campaign efficiency boost.",
+    Technologies: ["Next.js", "FastAPI", "Gemini API", "PostgreSQL"],
+    Source: "https://github.com/Ananya020/PerzonAI.git",
+    Demo: "",
+    Award: "1st Prize — AgentForce AI Hackathon",
+  },
+  {
+    Title: "Yunexa – AI Desktop Assistant", Date: "Apr 2025",
+    Image: "/assets/project-yunexa.webp",
+    Description: "Desktop assistant with face authentication via OpenCV, voice/text input, system control. HuggingFace NLP integration for real-time interaction.",
+    Technologies: ["Python", "OpenCV", "HuggingFace", "SpeechRecognition", "HTML/CSS/JS"],
+    Source: "https://github.com/Yuvika2109/Yunexa",
+    Demo: "",
+  },
+  {
+    Title: "Fear Therapy – AR/VR System", Date: "Feb–Apr 2025",
+    Image: "/assets/project-feartherapy.webp",
+    Description: "AR/VR therapy system (Unity + Oculus Quest 2) for phobias. IoT sensors for heart rate monitoring. Adaptive therapy with dynamic intensity adjustment.",
+    Technologies: ["Unity", "Oculus Quest 2", "IoT Sensors", "AR/VR"],
+    Source: "https://github.com/dhrxvjhx/Fear-Therapy",
+    Demo: "",
+  },
+];
