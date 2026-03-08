@@ -1,4 +1,4 @@
-import { Box, Button, useToast, VStack, Text, HStack, Input, Textarea } from "@chakra-ui/react";
+import { Box, Button, useToast, Text, HStack, Input, Textarea } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { FaDownload, FaPaperPlane } from "react-icons/fa6";
