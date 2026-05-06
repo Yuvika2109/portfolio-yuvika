@@ -1,5 +1,13 @@
 export const projects = [
-   {
+  {
+    Title: "Employee Onboarding Coordination System", Date: "Apr 2026 – May 2026",
+    Image: "/assets/servicenow.webp",
+    Description: "Automated cross-department onboarding workflows (HR, IT, Security, Facilities, Training) via a unified Service Catalog intake. Configurable role-template engine with Flow Designer, Business Rules, SLA Management, Notifications, and 5 custom tables extending the Task model for auto task generation, routing, tracking, and audit logging. Fully scoped app with Service Portal integration and ATF testing.",
+    Technologies: ["ServiceNow Zurich", "Flow Designer", "Business Rules", "Service Catalog", "Service Portal", "SLA Management", "ATF", "GitHub"],
+    Source: "https://github.com/Yuvika2109/servicenow-onboarding-coordination.git",
+    Demo: "",
+  },
+  {
     Title: "Methane Detection from Indian Coal Mines", Date: "Dec 2025 – Mar 2026",
     Image: "/assets/project-methane.webp",
     Description: "Satellite-based methane monitoring for 8 mines. R²=0.977, 91.7% accuracy, 94.1% F1-score. Multi-satellite data (Sentinel-2 + TROPOMI) with literature-backed emission factors.",
