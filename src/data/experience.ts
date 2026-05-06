@@ -10,6 +10,16 @@ export const experiences = [
     tech: ["Python", "Sentence-BERT", "FAISS", "REST APIs", "NLP"],
   },
   {
+    role: "SDE Intern", company: "PayU (Wimbo)",
+    period: "Jan 2026 – Apr 2026", location: "Remote",
+    highlights: [
+      "1. Designed and built an end-to-end agentic pipeline that converts plain-English fraud scenarios into fully labelled synthetic transaction datasets, eliminating dependency on PII-sensitive production data for model training",
+      "2. Engineered a deterministic fraud injection engine supporting 13 fraud scenarios across Card (EMVCo 3DS v2.3.1) and UPI payment rails, integrated with a local LLM (Llama3 via Ollama) as a blueprint generation layer — ensuring zero data leaves the system while enabling dynamic, scenario-aware dataset specifications",
+      "3. Built a 4-step Rule Engine evaluation suite measuring Precision, Recall, F1 Score, and Fraud Hit Rate against ground-truth labelled datasets, with dual interfaces (Streamlit web app + CLI) enabling technical and non-technical stakeholders to generate, preview, and export datasets in CSV, JSON, and Parquet formats",
+    ],
+    tech: ["Python", "Ollama (Llama3)", "Streamlit", "Pandas", "NumPy", "PyArrow", "Git"],
+  },
+  {
     role: "Machine Learning Intern", company: "IIT Kharagpur",
     period: "Jun 2025 – Jul 2025", location: "Kharagpur, West Bengal",
     highlights: [

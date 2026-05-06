@@ -13,13 +13,14 @@ import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
 import Certifications from "./pages/Certifications";
+import Publications from "./pages/Publications";
 import Achievements from "./pages/Achievements";
 import Contact from "./pages/Contact";
 
 const tabLinkMap: Record<string, string> = {
   "home.jsx": "/", "about.js": "/about", "experience.json": "/experience",
   "projects.py": "/projects", "skills.ts": "/skills", "education.sql": "/education",
-  "certifications.md": "/certifications", "achievements.yml": "/achievements", "contact.html": "/contact",
+  "certifications.md": "/certifications", "publications.bib": "/publications", "achievements.yml": "/achievements", "contact.html": "/contact",
 };
 
 function App() {
@@ -81,6 +82,7 @@ function App() {
             <Route path="/skills" element={<Skills setPage={selectPage} />} />
             <Route path="/education" element={<Education setPage={selectPage} />} />
             <Route path="/certifications" element={<Certifications setPage={selectPage} />} />
+            <Route path="/publications" element={<Publications setPage={selectPage} />} />
             <Route path="/achievements" element={<Achievements setPage={selectPage} />} />
             <Route path="/contact" element={<Contact setPage={selectPage} />} />
           </Routes>

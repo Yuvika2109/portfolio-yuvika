@@ -13,6 +13,7 @@ const filePages = [
   { label: "skills.ts", icon: "/assets/typescript.webp", link: "/skills" },
   { label: "education.sql", icon: "/assets/css.webp", link: "/education" },
   { label: "certifications.md", icon: "/assets/html.webp", link: "/certifications" },
+  { label: "publications.bib", icon: "/assets/html.webp", link: "/publications" },
   { label: "achievements.yml", icon: "/assets/json.webp", link: "/achievements" },
   { label: "contact.html", icon: "/assets/html.webp", link: "/contact" },
 ];

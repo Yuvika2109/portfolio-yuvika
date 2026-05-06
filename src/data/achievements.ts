@@ -1,6 +1,7 @@
 export const achievements = [
   { title: "Top 2% in CS Department", detail: "Recognized among 2,000+ students in CSE (2024-25)", org: "SRM IST" },
   { title: "1st Prize — AgentForce AI Hackathon", detail: "Won for PerzonAI — AI Marketing Tool", org: "Your Engineers" },
+  { title: "Top 50 Team — Code for Purpose 2026", detail: "Ranked in top 50 teams from 1,300+ teams across India", org: "NatWest" },
 ];
 export const extracurriculars = [
   { role: "Student Member", org: "The Institution of Engineers (India)[IEI]", period: "Feb 2024-Present", detail: "Participated in various engineering events and workshops" },
