@@ -1,15 +1,5 @@
 export const experiences = [
   {
-    role: "Machine Learning Intern", company: "JA Assure",
-    period: "Dec 2025 – Present", location: "Remote",
-    highlights: [
-  "1. Designed and implemented a multilingual conversational AI pipeline capable of processing both text and voice inputs, using Python with Speech-to-Text, language detection, and document retrieval to generate context-aware responses",
-  "2. Built a semantic retrieval system leveraging Sentence-BERT embeddings and FAISS vector search to efficiently retrieve relevant information from insurance FAQ documents within a Retrieval-Augmented Generation (RAG) architecture",
-  "3. Developed RESTful APIs using FastAPI to support chat interactions, speech-to-text transcription, and text-to-speech generation, enabling seamless communication between the frontend interface and the AI-powered backend system"
-],
-    tech: ["Python", "Sentence-BERT", "FAISS", "REST APIs", "NLP"],
-  },
-  {
     role: "SDE Intern", company: "PayU (Wimbo)",
     period: "Jan 2026 – Apr 2026", location: "Remote",
     highlights: [
@@ -18,6 +8,16 @@ export const experiences = [
       "3. Built a 4-step Rule Engine evaluation suite measuring Precision, Recall, F1 Score, and Fraud Hit Rate against ground-truth labelled datasets, with dual interfaces (Streamlit web app + CLI) enabling technical and non-technical stakeholders to generate, preview, and export datasets in CSV, JSON, and Parquet formats",
     ],
     tech: ["Python", "Ollama (Llama3)", "Streamlit", "Pandas", "NumPy", "PyArrow", "Git"],
+  },
+  {
+    role: "Machine Learning Intern", company: "JA Assure",
+    period: "Jan 2026 – Mar 2026", location: "Remote",
+    highlights: [
+      "1. Designed and implemented a multilingual conversational AI pipeline capable of processing both text and voice inputs, using Python with Speech-to-Text, language detection, and document retrieval to generate context-aware responses",
+      "2. Built a semantic retrieval system leveraging Sentence-BERT embeddings and FAISS vector search to efficiently retrieve relevant information from insurance FAQ documents within a Retrieval-Augmented Generation (RAG) architecture",
+      "3. Developed RESTful APIs using FastAPI to support chat interactions, speech-to-text transcription, and text-to-speech generation, enabling seamless communication between the frontend interface and the AI-powered backend system",
+    ],
+    tech: ["Python", "Sentence-BERT", "FAISS", "REST APIs", "NLP"],
   },
   {
     role: "Machine Learning Intern", company: "IIT Kharagpur",
